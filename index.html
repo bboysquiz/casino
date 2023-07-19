@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class='header'>
+        <div class="header__container">
+            <button class="button">
+                <img src='./img/arrow.svg' alt="arrow" class="button__arrow" >
+            </button>
+            <div class="header__scale">
+                <img src='./img/star.svg' alt="star" class="scale__img" >
+                <div class="scale__value">
+                    <span class="scale__current"></span>
+                    /
+                    <span class="scale__full"></span>
+                </div>
+            </div>
+            <div class="header__balance">
+                <img src='./img/coins.svg' alt="coins" class="balance__img" >
+                <span class="balance__bill"></span>
+            </div>
+        </div>
+    </header>
+    <section class='main'>
+        <div class="main__container">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__set">
+                <button onclick="changeSet('minus')" class="button">
+                    <img src="./img/minus.svg" alt="minus" class="set__img">
+                </button>
+                <div class="set__scale">
+                    <span class="set__value"></span>
+                </div>
+                <button onclick="changeSet('plus')" class="button">
+                    <img src="./img/plus.svg" alt="plus" class="set__img">
+                </button>
+            </div>
+            <div class="footer__win-scale">
+                <span class="win-scale__title">WIN</span>
+                <span class="win-scale__bill"></span>
+            </div>
+            <div class="footer__buttons">
+                <button class="footer__button-auto" onclick="autoRollAll()"><span class="button-auto-title">AUTO</span></button>
+                <button class="footer__button-spin" onclick="rollAll()"><span class="button-spin-title">SPIN</span></button>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
