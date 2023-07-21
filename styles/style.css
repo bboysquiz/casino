@@ -18,6 +18,7 @@
   .header__container {
     width: 500px;
     padding-right: 34px;
+  }
 }
 .button {
   box-shadow: 0px 7px 5px 0px rgba(92, 15, 255, 0.32);
@@ -37,6 +38,7 @@
   .button {
     width: 30px;
     height: 30px;
+  }
 }
 .button__arrow {
   height: 14px;
@@ -61,6 +63,7 @@
   .header__scale {
     width: 130px;
     height: 30px;
+  }
 }
 .scale__img {
   position: absolute;
@@ -75,6 +78,7 @@
     margin-top: -18.5px;
     height: 33px;
     width: 32px;
+  }
 }
 .scale__value {
   font-family: Impact;
@@ -90,6 +94,7 @@
 @media screen and (max-width: 800px) {
   .scale__value {
     font-size: 10px;
+  }
 }
 .header__balance {
   width: 241px;
@@ -110,6 +115,7 @@
   .header__balance {
     width: 130px;
     height: 30px;
+  }
 }
 .balance__img {
   position: absolute;
@@ -141,6 +147,7 @@
 @media screen and (max-width: 800px) {
   .balance__bill {
     font-size: 10px;
+  }
 }
 .first-column__el {
   transition: 1.3s ease-in-out;
@@ -227,7 +234,7 @@
 @media screen and (max-width: 800px) {
   .footer__container {
     width: 500px;
-}
+  }
 }
 .footer__set {
     width: 196px;
@@ -238,6 +245,7 @@
 @media screen and (max-width: 800px) {
   .footer__set {
     width: 160px;
+  }
 }
 .set__scale {
     height: 38px;
@@ -252,7 +260,7 @@
   .set__scale {
     width: 95px;
     height: 28px;
-
+  }
 }
 .set__value {
     font-family: Impact;
@@ -268,6 +276,7 @@
 @media screen and (max-width: 800px) {
   .set__value {
     font-size: 10px;
+  }
 }
 .footer__win-scale {
     height: 38px;
@@ -284,6 +293,7 @@
   .footer__win-scale {
     width: 95px;
     height: 30px;
+  }
 }
 .win-scale__title{
     font-family: Impact;
@@ -299,6 +309,7 @@
 @media screen and (max-width: 800px) {
   .win-scale__title {
     font-size: 10px;
+  }
 }
 .win-scale__bill {
     font-family: Impact;
@@ -314,6 +325,7 @@
 @media screen and (max-width: 800px) {
   .win-scale__bill {
     font-size: 10px;
+  }
 }
 .footer__buttons {
     width: 203px;
@@ -324,6 +336,7 @@
 @media screen and (max-width: 800px) {
   .footer__buttons {
     width: 150px;
+  }
 }
 .footer__button-auto {
    width: 99px;
